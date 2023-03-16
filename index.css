@@ -1,0 +1,109 @@
+html, body {
+    background-color:#EDEDED;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    margin: 1 auto;
+    
+    padding: 0;
+    width: 375px;
+}
+
+/* header section */
+.nav{
+    background-color: #fefefe;
+    display: flex;
+    height: 67px;
+    justify-content: space-between;
+
+}
+
+.logo{
+    padding: 5px;
+}
+
+.profilePic,
+.avatar{
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+      
+}
+
+.profilePic{
+    padding: 15px;
+}
+/* section */
+
+section{
+    background-color: #fefefe;
+    margin-bottom: 20px;
+    margin-top: 2px;
+
+}
+
+/* other profile feed */
+
+.profile{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+       
+}
+
+.avatar{
+  
+    margin-right: 15px;
+   
+}
+
+span, 
+.likes{
+    font-weight: 700;
+}
+
+
+/*  posts  */
+
+.post{
+    height: 375px;
+    width: 375px;
+}
+
+
+/* like comment share icons */
+
+.icons{
+    display: flex;
+    height: 25px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 105px;
+}
+
+
+.icons img:hover{
+    background-color: rgb(243, 23, 232);
+    border-radius:50% ;
+    padding: 2px;
+
+  
+}
+
+
+/* likes and others */
+
+.interactiveSection{
+    padding-left: 15px;
+}
+
+.coment{
+    padding-bottom: 15px;
+   
+}
+
+
+
+
+
